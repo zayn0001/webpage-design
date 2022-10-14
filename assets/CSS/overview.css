@@ -1,0 +1,173 @@
+
+
+.full_hero{
+    background-image: url("../images/Rectangle\ 150.png");
+    background-position: 50%;
+}
+
+.mysection{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 3em;
+    margin: auto;
+}
+
+.overview-courses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.3rem;
+    gap: 0.1rem;
+    
+    width: 20%;
+    height: 3em;
+    
+    background: #F2F2F2;
+    border-radius: 16px;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.scholarship-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.left {
+    background-image: url('../images/before.png');
+    width: 2em;
+    height: 2em;
+    border: none;
+    background-color: var(--bg-first);
+    background-size: contain;
+}
+
+.right {
+    background-image: url('../images/next.png');
+    width: 2em;
+    height: 2em;
+    border: none;
+    background-color: var(--bg-first);
+    background-size: contain;
+}
+
+.scholarship {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    gap: 1em;
+    padding: 1em;
+}
+
+.values-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding: 1em;
+    padding-left: 0;
+    width: 100%;
+    padding-right: 12em;
+}
+
+#intakes {
+    background-image: url('../images/Group 62799.png');
+}
+
+#acceptance {
+    background-image: url('../images/Group 62800.png');
+}
+#teacher {
+    background-image: url('../images/Group 62801.png');
+}
+
+.valuebox {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #0D5E57;
+    border-radius: 16px;
+    width: 25%;
+    height: 9em;
+    padding: 2em;
+    gap: 2.5em;
+    align-items: flex-start;
+    justify-content: center;
+    background-size:cover;
+}
+
+.expand {
+    background-image: url("../images/expand-more.png");
+    background-size: contain;
+    border: none;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+}
+
+:focus{
+    outline: none;
+}
+
+.value {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.title {
+    font-size: larger;
+    font-style: bold;
+    color: black;
+    font-weight: 400;
+}
+
+.requirements > ul li::before {
+    list-style-position: inside;
+    content: "\2022";  
+    list-style-position: inside;
+    color: black; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    border: 0;
+    font-size: medium;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 16px;    
+}
+
+.selected {
+    background: #F2F2F2;
+}
+
+
+
+
+

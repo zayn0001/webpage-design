@@ -1,0 +1,95 @@
+.full_hero{
+    background-image: url("../images/Rectangle\ 64.png");
+    background-position: 50%;
+}
+.contact_sec{
+
+    margin: auto;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 4rem;
+    align-items: center;
+    
+}
+.contact_us .ft_ic{
+    background-color: transparent;
+}
+
+.contact_us{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.contact_us ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    width: 50%;
+    margin-top: .5rem;
+
+}
+.contact_us li, .contact_us a{
+    margin: 0;
+    color: var(--dark-bg);
+    font-weight: 500;
+    font-size: var(--smaller-font-size);
+}
+
+.contact_link{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.touch_form{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+
+}
+
+.touch_form_out{
+    border-radius: 8px;
+    background-color: var(--bg-white);
+    padding: 2rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    box-shadow: -18px 18px 102px rgba(0, 0, 0, 0.09);
+}
+
+.touch_form_out h2{
+    font-weight: 600;
+}
+
+.touch_form .primary_btn{
+    width: 100%;
+}
+
+.touch_form input,textarea{
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: border 0.2s ease-out;
+    background-color: #F8F8F8;
+    font-size: var(--smaller-font-size);
+    font-family: var(--body-font);
+    resize: none;
+}
+
+.touch_form textarea:focus,input:focus{
+    outline: none;
+    border: 1px solid #0D5E57;
+}
+
+
+
+
+
+

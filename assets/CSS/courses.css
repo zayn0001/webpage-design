@@ -1,0 +1,194 @@
+.full_hero{
+    background-image: url("../images/Rectangle\ 150.png");
+    background-position: 50%;
+}
+
+.mysection{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 3em;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.overview-courses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.3rem;
+    gap: 0.1rem;
+    
+    width: 20%;
+    height: 3em;
+    
+    background: #F2F2F2;
+    border-radius: 16px;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+.choose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    border: 0;
+    font-size: medium;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 16px;    
+}
+
+.selected {
+    background: #F2F2F2;
+}
+
+.spot_enquire .input {
+    background-color: white;
+    color: black;
+}
+
+.course-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    flex: 2;
+}
+
+.title {
+    font-size: larger;
+    font-style: bold;
+    color: black;
+    font-weight: 400;
+}
+
+.label {
+    margin-left: 27px;
+}
+
+.course-info {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.course_thumbnail {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.course_thumbnail img {
+    border-radius: 12px;
+}
+
+.course_details {
+    flex: 1;
+}
+
+.course_heading {
+    height: auto;
+    display: flex;
+}
+
+.course_card {
+    flex-direction: row;
+    gap: 1em;
+}
+
+.selected {
+    border-color: green;
+    border-width: 1px;
+}
+
+.course-head {
+    display: flex;
+    flex-direction: row;
+}
+.course-name {
+    color: black;
+}
+
+.course-image {
+    flex: 1;
+}
+
+.learn li::before {
+    list-style-position: inside;
+    content: "\2022";  
+    list-style-position: inside;
+    color: black; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+}
+
+.learn li {
+    margin-bottom: 1em;
+}
+
+.course-stats {
+    flex: 1;
+    padding: 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0.8em;
+}
+
+.val {
+    color: black;
+}
+
+.val-logo {
+    float: left;
+}
+
+.mentor-container {
+    width: fit-content;
+}
+
+.mentor-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mentor-name, .designation {
+    text-align: center;
+    color: black;
+}
+.mentor-name {
+    font-weight: bold;
+}
+.course-fee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+    border-radius: 8px;
+    padding: 0.4em 1em 0.4em 1em;
+    color: #FFFFFF;
+}
+
+
